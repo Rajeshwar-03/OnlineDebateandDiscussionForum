@@ -10,7 +10,7 @@ Visit the live version of the project here: [Live Demo](https://incomparable-tra
 
 ## GitHub Repository
 
-Check out the source code on GitHub: [GitHub Repository](https://github.com/yourusername/debate-forum)
+Check out the source code on GitHub: [GitHub Repository](https://github.com/Rajeshwar-03/OnlineDebateandDiscussionForum)
 
 ## Features
 
