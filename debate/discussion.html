@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Debate Forum - Discussion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Discussion Topic</h1>
+    </header>
+    
+    <main>
+        <section id="discussion-content">
+            <h2 id="topic-title"></h2>
+            <div id="comments"></div>
+        </section>
+
+        <section id="comment-area">
+            <h2>Add a Comment</h2>
+            <input type="text" id="comment-input" placeholder="Type your comment here..." aria-label="Comment input">
+            <button id="submit-comment">Submit</button>
+            <div id="comment-error-message" class="error"></div>
+        </section>
+
+        <button id="back-button">Back to Discussions</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

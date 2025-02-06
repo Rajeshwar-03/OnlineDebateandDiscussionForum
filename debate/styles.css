@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+}
+
+header {
+    background: #61d1a6;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    padding: 20px;
+}
+
+#discussion-area, #discussion-content {
+    margin-bottom: 20px;
+}
+
+#posts, #comments {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.post, .comment {
+    padding: 15px;
+    border: 1px solid #57c888;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #f8f9fa;
+    transition: transform 0.2s, background 0.3s;
+    cursor: pointer;
+}
+
+.post:hover, .comment:hover {
+    transform: scale(1.02);
+    background: #e2e6ea;
+}
+
+#input-area, #comment-area {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#post-input, #comment-input {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+#post-input:focus, #comment-input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+#submit-post, #submit-comment, #back-button {
+    padding: 15px;
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#submit-post:hover, #submit-comment:hover, #back-button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
